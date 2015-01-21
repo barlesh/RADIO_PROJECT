@@ -7,7 +7,7 @@
 #define HANDSHAKE_LEN		3
 
 int state,numStations,socket_fd;
-
+int none;
 int main(int argc, char *argv[])
 {
 	int socket_fd, station;
